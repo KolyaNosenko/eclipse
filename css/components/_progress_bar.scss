@@ -1,0 +1,62 @@
+.pie-wrapper {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  margin-top: 15px;
+
+}
+.pie-wrapper.style-2 .label {
+  background: none;
+  color: #7f8c8d;
+}
+.pie-wrapper .label {
+  background: #34495e;
+  border-radius: 50%;
+  bottom: 0.4em;
+  color: #ecf0f1;
+  cursor: default;
+  display: block;
+  font-size: 12px;
+  left: 3px;
+  line-height: 25px;
+  position: absolute;
+  right: 0.4em;
+  text-align: center;
+  top: 0.4em;
+}
+
+.pie-wrapper.progress-25 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+.pie-wrapper .pie {
+  height: 100%;
+  width: 100%;
+  clip: rect(0, 1em, 1em, 0.5em);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.pie-wrapper.progress-25 .pie .half-circle {
+  border-color: #242121;
+}
+.pie-wrapper.progress-25 .pie .right-side {
+  -webkit-transform: rotate(94deg);
+  transform: rotate(94deg);
+}
+.pie-wrapper .pie .half-circle {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #3498db;
+  border-radius: 50%;
+  clip: rect(0, 20px, 22px, 0);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.pie-wrapper .shadow {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #bdc3c7;
+  border-radius: 50%;
+}

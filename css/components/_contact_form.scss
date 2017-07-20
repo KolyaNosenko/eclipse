@@ -1,0 +1,26 @@
+.contact_form{
+  background-color: #ffffff;
+  border: 1px solid $sectionTitleColor;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+  &_description {
+    font-size: 15px;
+    line-height: 25px;
+    @media only screen and (max-width: $screen-sm-max) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      font-size: 12px;
+      line-height: 19px;
+    }
+  }
+  &_title {
+    font-size: 22px;
+    @media only screen and (max-width: $screen-sm-max) {
+      font-size: 19px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      font-size: 16px;
+    }
+  }
+}

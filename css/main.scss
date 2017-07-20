@@ -1,0 +1,26 @@
+@import "abstract/variables";
+@import "base/fonts";
+@import "base/reset";
+@import "base/typography";
+@import "components/button";
+@import "components/input";
+@import "components/_menu";
+@import "components/contact_form";
+@import "components/progress_bar";
+@import "components/carousel";
+@import "layout/header";
+@import "sections/preview";
+@import "sections/information";
+@import "sections/implementation";
+@import "sections/advantages";
+@import "sections/services";
+.section{
+  color: $sectionParagraphColor;
+  font-family: $primaryFontR;
+  @media only screen and (max-width: $screen-sm-max) {
+    font-size: 13px;
+  }
+  @media only screen and (max-width: $screen-xs-max) {
+    font-size: 12px;
+  }
+}

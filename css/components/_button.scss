@@ -1,0 +1,28 @@
+.section_button{
+  max-width: 230px;
+  width: 100%;
+  height: 45px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background-color: $sectionTitleColor;
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 25px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  @media only screen and (max-width: $screen-md-max) {
+    height: 40px;
+  }
+  @media only screen and (max-width: $screen-sm-max) {
+    font-size: 14px;
+    max-width: 210px;
+    height: 35px;
+  }
+  @media only screen and (max-width: $screen-xs-max) {
+    font-size: 13px;
+    max-width: 180px;
+    height: 30px;
+    margin-top: 12px;
+  }
+}

@@ -1,0 +1,113 @@
+.section_implementation {
+  padding-top: 60px;
+  @media only screen and (max-width: $screen-sm-max) {
+    padding-top: 54px;
+  }
+  @media only screen and (max-width: $screen-xs-max) {
+    padding-top: 46px;
+  }
+  .implementation_title {
+    font-size: 50px;
+    @media only screen and (max-width: $screen-sm-max) {
+      font-size: 45px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      font-size: 38px;
+    }
+    &_descr {
+      font-size: 35px;
+      @media only screen and (max-width: $screen-sm-max) {
+        font-size: 31px;
+      }
+      @media only screen and (max-width: $screen-xs-max) {
+        font-size: 26px;
+      }
+    }
+  }
+  &_sub_title {
+    font-size: 30px;
+    font-family: $primaryFontB;
+    text-transform: uppercase;
+    @media only screen and (max-width: $screen-sm-max) {
+      font-size: 27px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      font-size: 23px;
+    }
+  }
+  .implementation_paragraph {
+    font-size: 20px;
+    font-family: $primaryFontL;
+    margin-top: 20px;
+    @media only screen and (max-width: $screen-sm-max) {
+      font-size: 18px;
+      margin-top: 18px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      font-size: 15px;
+      margin-top: 15px;
+    }
+  }
+  &_carousel {
+    margin-top: 25px;
+    padding-bottom: 10px;
+    position: relative;
+    border-bottom: 1px solid #999999;
+    @media only screen and (max-width: $screen-xs-max) {
+      padding-bottom: 30px;
+    }
+    .carousel_item {
+      display: flex;
+      @media only screen and (max-width: $screen-xs-max) {
+        flex-direction: column;
+      }
+      .stage_screen {
+        width: 42%;
+        margin-right: 42px;
+        @media only screen and (max-width: $screen-sm-max) {
+          margin-right: 37px;
+        }
+        @media only screen and (max-width: $screen-xs-max) {
+          margin-right: 31px;
+          width: 100%;
+        }
+      }
+      .stage_number {
+        display: inline-block;
+        color: #cccccc;
+        font-size: 60px;
+        font-family: $primaryFontTh;
+        margin-top: 40px;
+        @media only screen and (max-width: $screen-sm-max) {
+          font-size: 54px;
+          margin-top: 36px;
+        }
+        @media only screen and (max-width: $screen-xs-max) {
+          font-size: 46px;
+          margin-top: 10px;
+          display: block;
+          text-align: center;
+        }
+      }
+      .stage_paragraph {
+        font-size: 20px;
+        margin-top: 45px;
+        @media only screen and (max-width: $screen-sm-max) {
+          font-size: 20px;
+          margin-top: 40px;
+        }
+        @media only screen and (max-width: $screen-xs-max) {
+          font-size: 17px;
+          margin-top: 5px;
+          text-align: center;
+        }
+      }
+    }
+    .owl-dots{
+      bottom: 18px;
+      @media only screen and (max-width: $screen-xs-max) {
+        bottom: 5px;
+      }
+    }
+  }
+}
